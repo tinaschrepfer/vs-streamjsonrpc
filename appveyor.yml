@@ -4,6 +4,7 @@ branches:
   - master
   - /^v\d+(?:.\d+)?$/
   - /[\b_]validate\b/
+  - /[\b_]test\b/
 skip_tags: true
 nuget:
   disable_publish_on_pr: true
